@@ -6,6 +6,12 @@
         mc:Ignorable="d"
         Title="Kleurenpsychologie" Height="350" Width="525"
         Background="LightGray">
+    <Application x:Class="ColorPsychology.App"
+             StartupUri="MainWindow.xaml"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    </Application>
+
 
     <Grid>
         <!-- Titel -->
