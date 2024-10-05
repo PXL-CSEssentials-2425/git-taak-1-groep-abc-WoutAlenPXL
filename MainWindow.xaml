@@ -10,9 +10,12 @@
         <Grid>
             <!-- Titel -->
             <TextBlock Text="Kleurenpsychologie" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" FontSize="20"/>
-
-          
+            
+            <!-- PXL Logo -->
+            <Image Name="PxlLogo" Source="pxl_logo.png" HorizontalAlignment="Right" VerticalAlignment="Top" Width="100" Height="100" Margin="0,10,10,0"/>
         </Grid>
+
+   
 
     
 </Window>
