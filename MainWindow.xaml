@@ -24,11 +24,10 @@
         <!-- Kleurcode weergeven -->
         <TextBlock Text="Kleurcode:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,180,0,0" FontSize="16"/>
         <TextBox Name="ColorCodeTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,180,0,0" Width="150" Height="30"/>
+
+        <!-- Kleur informatie weergeven -->
+        <TextBlock Text="Informatie:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,230,0,0" FontSize="16"/>
+        <TextBox Name="ColorInfoTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,230,0,0" Width="300" Height="30"/>
     </Grid>
-
-
-
-
-
 
 </Window>
