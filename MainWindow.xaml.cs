@@ -10,15 +10,32 @@ namespace ColorPsychology
             InitializeComponent();
         }
 
-        // Hover Effect - Change window background when hovering over PXL logo
-        private void Image_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
+        // Event handler voor Rode afbeelding
+        private void RedButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Background = new SolidColorBrush(Colors.LightBlue); // Change to any color when hovering
+            ColorCodeTextBox.Text = "#FF0000"; // Rood
         }
 
-        private void Image_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
+        // Event handler voor Gele afbeelding
+        private void YellowButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Background = new SolidColorBrush(Colors.LightGray); // Reset to light gray
+            ColorCodeTextBox.Text = "#FFFF00"; // Geel
+        }
+
+        // Event handler voor Groene afbeelding
+        private void GreenButton_Click(object sender, RoutedEventArgs e)
+        {
+            ColorCodeTextBox.Text = "#008000"; // Groen
+        }
+
+        // Event handler voor Blauwe afbeelding
+        private void BlueButton_Click(object sender, RoutedEventArgs e)
+        {
+            ColorCodeTextBox.Text = "#0000FF"; // Blauw
         }
     }
+
 }
+    
+
+

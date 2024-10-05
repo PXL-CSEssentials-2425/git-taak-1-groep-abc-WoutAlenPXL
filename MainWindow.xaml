@@ -8,13 +8,25 @@
         Background="LightGray">
 
     <Grid>
-        <!-- Title -->
+        <!-- Titel -->
         <TextBlock Text="Kleurenpsychologie" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" FontSize="20"/>
 
-        <!-- PXL Logo with hover effect -->
-        <Image Name="PxlLogo" Source="pxl_logo.png" HorizontalAlignment="Right" VerticalAlignment="Top" Width="100" Height="100" Margin="0,10,10,0"
-           MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave"/>
+        <!-- Kleurafbeeldingen -->
+        <Image Name="RedImage" Source="Images/red_image.png" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,60,0,0" Width="100" Height="50" 
+           MouseLeftButtonUp="RedButton_Click"/>
+        <Image Name="YellowImage" Source="Images/yellow_image.png" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,60,0,0" Width="100" Height="50"
+           MouseLeftButtonUp="YellowButton_Click"/>
+        <Image Name="GreenImage" Source="Images/green_image.png" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,120,0,0" Width="100" Height="50"
+           MouseLeftButtonUp="GreenButton_Click"/>
+        <Image Name="BlueImage" Source="Images/blue_image.png" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,120,0,0" Width="100" Height="50"
+           MouseLeftButtonUp="BlueButton_Click"/>
+
+        <!-- Kleurcode weergeven -->
+        <TextBlock Text="Kleurcode:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,180,0,0" FontSize="16"/>
+        <TextBox Name="ColorCodeTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,180,0,0" Width="150" Height="30"/>
     </Grid>
+
+
 
 
 
