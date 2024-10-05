@@ -7,15 +7,16 @@
         Title="Kleurenpsychologie" Height="350" Width="525"
         Background="LightGray">
 
-        <Grid>
-            <!-- Titel -->
-            <TextBlock Text="Kleurenpsychologie" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" FontSize="20"/>
-            
-            <!-- PXL Logo -->
-            <Image Name="PxlLogo" Source="pxl_logo.png" HorizontalAlignment="Right" VerticalAlignment="Top" Width="100" Height="100" Margin="0,10,10,0"/>
-        </Grid>
+    <Grid>
+        <!-- Title -->
+        <TextBlock Text="Kleurenpsychologie" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" FontSize="20"/>
 
-   
+        <!-- PXL Logo with hover effect -->
+        <Image Name="PxlLogo" Source="pxl_logo.png" HorizontalAlignment="Right" VerticalAlignment="Top" Width="100" Height="100" Margin="0,10,10,0"
+           MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave"/>
+    </Grid>
 
-    
+
+
+
 </Window>
